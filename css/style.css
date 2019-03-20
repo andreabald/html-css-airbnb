@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box{
+  width: 100vw;
+  height: 100vh;
+  background-size:cover;
+  position: relative;
+}
+
+.rome{
+  background-image: url("../img/rome.jpg");
+}
+
+.cope{
+  background-image: url("../img/cope.jpg");
+}
+
+.tokyo{
+  background-image: url("../img/tokyo.jpg");
+}
+
+.box > .text{
+  position: absolute;
+  color: white;
+  font-size: 100px;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: black 4px 4px 6px;
+}
